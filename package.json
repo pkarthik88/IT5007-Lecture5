@@ -1,0 +1,32 @@
+{
+  "name": "it5007-lecture5",
+  "version": "1.0.0",
+  "description": "NUS IT5007",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "compile": "babel src --out-dir public",
+    "watch": "babel src --out-dir public --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkarthik88/IT5007-Lecture5.git"
+  },
+  "author": "Prasanna Karthik Vairam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkarthik88/IT5007-Lecture5/issues"
+  },
+  "homepage": "https://github.com/pkarthik88/IT5007-Lecture5#readme"
+}
