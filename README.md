@@ -1,6 +1,6 @@
 # IT5007-Lecture5
 
-* Download the docker image from https://mynbox.nus.edu.sg/a/IxeZbTaXmUUxF5lJ/ac7a0cb7-3c49-4b0d-91c1-8deaf0244862?l
+* Download the docker image from https://mynbox.nus.edu.sg/u/2jxxfs-8cVfIPHFa/ac7a0cb7-3c49-4b0d-91c1-8deaf0244862?l
 * For Windows, navigate to the download folder, and launch powershell and import the image as follows
 ```docker load -i docker_image_mongo.tar```
 * Launch a container from this image using
